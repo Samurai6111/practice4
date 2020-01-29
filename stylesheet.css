@@ -1,0 +1,331 @@
+*{
+	box-sizing: border-box;
+	font-family: 游ゴシック体;
+}
+
+header {
+	background-image: url("top@2x.png");
+	background-size: cover;
+	padding: 150px 200px 240px;
+	text-align: center;
+	background-repeat: no-repeat;
+
+}
+header h1 {
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+}
+header a {
+	display: block;
+	margin:0 auto;
+	width: 200px;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	padding:15px 30px;
+	background-color: transparent;
+	border:1px solid white;
+}
+header a:hover {
+	text-decoration: underline;
+	background-color: rgba(255,255,255,0.5);
+	text-transform: uppercase;
+}
+
+			/* header */
+			/* hat */
+
+.container-fluid {
+	width: 80%;
+	margin:0 auto;
+}
+.hat h1 {
+	display: block;
+	text-align: center;
+	width: 50%;
+	font-size: 46px;
+	font-weight:bold;
+	border-bottom: 3px solid black;
+
+	margin:150px auto 120px;
+}
+.hat img {
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	left: -10%;
+	padding-bottom: 200px;
+}
+.hat .p {
+	position: relative;
+	padding-left: 65%;
+}
+.hat .p p {
+	font-size: 16px
+	font-weight:bold;
+	padding-bottom: 40px
+}
+.hat .p a {
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: white;
+	border:3px solid black;
+	color: black;
+	padding:20px 50px;
+	box-shadow: 0 0 5px black;
+}
+.hat .p a:hover {
+	text-decoration: underline;
+}
+
+			/* hat */
+			/* top */
+
+.top {
+	padding-top: 140px;
+}
+.top .orange {
+	background-image: url("s-2@2x.png");
+	background-size: cover;
+	width: 49%;
+	height: 600px;
+	position: relative;
+}
+.top .orange1 {
+	background-image: url("s-3@2x.png");
+	background-size: cover;
+	width: 49%;
+	height: 600px;
+	position: relative;
+
+}
+
+.orangeorange {
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	margin: auto;
+	height: 60%;
+	vertical-align: middle;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:20px 30px 45px;
+	background-color: rgba(255,255,255,0.8);
+}
+.top img {
+	width:100px;
+}
+.top h1 {
+	font-size:30px;
+	font-weight: bold;
+	border-bottom: solid;
+}
+.top p {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+			/* top */
+			/* bottom */
+.bottom {
+	background-image: url("s-4@2x.png");
+	background-size: cover;
+	padding: 172px 224px 265px;
+	margin-top: 150px;
+	background-repeat: no-repeat;
+	color: white;
+
+}
+.bottom h1 {
+	padding-bottom: 70px;
+	font-size: 32px;
+	font-weight: bold;
+
+}
+.bottom p {
+	padding-bottom: 25px;
+	font-size:20px;
+	font-weight: normal;
+}
+
+			/* bottom */
+			/* socks */
+
+.socks {
+	padding-top: 260px;
+}
+.navy {
+	padding:90px 0px 60px 50px;
+	background-color: #013B74;
+	color: white;
+	position: relative;
+	width: 90%;
+	margin-bottom: 150px;
+}
+.navy-inside {
+	display:block;	
+	 width:50%;
+}
+.earth {
+	position: absolute;
+	top:-60px;
+	right: -60px;
+	width:450px;
+}
+.navy1 {
+	padding:90px 30px 60px 0;
+	background-color: #013B74;
+	color: white;
+	position: relative;
+	width: 90%;
+	margin-bottom: 150px;
+}
+.earth1 {
+	position: absolute;
+	top:-60px;
+	left: -60px;
+}
+.socks p {
+	font-size: 20px
+	font-weight:bold;
+	padding-bottom: 50px;
+	color: white;
+}
+.socks a {
+	font-size: 17px;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: transparent;
+	border:1px solid white;
+	color: white;
+	padding:12px 60px;
+}
+.socks a:hover {
+	text-decoration: underline;
+}
+
+			/* socks */
+			/* shoes */
+
+.shoes {
+	padding-top: 120px;
+}
+.no {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
+	position: relative;
+}
+.shoes img {
+	width: 100%;
+	height:230px;
+}
+.yes {
+	width: 32%;
+	border:0px solid;
+	box-shadow: 3px 3px 3px lightgrey, 
+			   -3px -3px 3px lightgrey ;
+	padding-bottom: 40px;
+	height: 550px;
+}
+.yes h1 {
+	font-size: 16px;
+	margin:15px 30px 40px 15px;
+	font-weight: bold;
+	border-bottom: 2px solid;
+}
+.yes p {
+	font-size:16px;
+	padding:0 15px;
+	font-weight: bold;
+}
+.yes a {
+	display: block;
+	margin:0 auto;
+	width: 150px;
+	text-align: center;
+	color: #013B74;
+	text-decoration: none;
+	font-size: 20px;
+	padding:10px 52px;
+	background-color: transparent;
+	border:1px solid #013B74;
+}
+.yes  a:hover {
+	text-decoration: underline;
+	background-color: rgba(255,255,255,0.5);
+	text-transform: uppercase;
+}
+
+.yesno {
+	position: absolute;
+	top: -10%;
+	left: 34%;
+	width: 32%;
+	height: 550px;
+	border:0px solid;
+	box-shadow: 3px 3px 3px lightgrey, 
+			   -3px -3px 3px lightgrey ;
+	padding-bottom: 40px;
+}
+.yesno h1 {
+	font-size: 16px;
+	margin:15px 30px 40px 15px;
+	font-weight: bold;
+	border-bottom: 2px solid;
+}
+.yesno p {
+	font-size:16px;
+	padding:0 15px;
+	font-weight: bold;
+}
+.yesno a {
+	display: block;
+	margin:0 auto;
+	width: 150px;
+	text-align: center;
+	color: #013B74;
+	text-decoration: none;
+	font-size: 20px;
+	padding:10px 52px;
+	background-color: transparent;
+	border:1px solid #013B74;
+}
+.yesno  a:hover {
+	text-decoration: underline;
+	background-color: rgba(255,255,255,0.5);
+	text-transform: uppercase;
+}
+
+			/* socks */
+			/* shoes */
+
+footer {
+	width: 100%;
+
+	margin-top: 150px;
+	background-color: #5F5E5E;
+	color: white;
+	text-align: center;
+}
+footer div {
+	display: flex;
+	justify-content: center;
+}
+footer img{
+	padding:25px 35px 20px;
+	width: 150px;
+}
+footer p {
+	padding-bottom: 25px;
+	font-family: Helvetica Neue;
+	font-size: 20px;
+}
+
